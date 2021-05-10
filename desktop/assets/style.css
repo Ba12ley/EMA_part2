@@ -1,0 +1,25 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.admin_group {
+  background-color: lightblue;
+}
+
+.container-item {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  border-bottom-width: 1px;
+  border-bottom-style: groove;
+  padding: 10px;
+}
+
+.container-item button {
+  padding: 5px;
+}
