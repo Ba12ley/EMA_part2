@@ -7,11 +7,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
 
 .admin_group {
   background-color: lightblue;
 }
-
+.container {
+  width: 768px;
+  float: left;
+}
 .container-item {
   display: grid;
   grid-template-columns: 4fr 1fr 1fr;
@@ -22,4 +29,18 @@ a {
 
 .container-item button {
   padding: 5px;
+  margin: auto;
+}
+
+.admin_activity {
+  position: relative;
+  margin: 0 auto;
+  width: 230px;
+  float: right;
+}
+
+table {
+  border: solid;
+  width: 1010px;
+  text-align: center;
 }
