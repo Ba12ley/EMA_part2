@@ -27,6 +27,11 @@ a:hover {
   padding: 10px;
 }
 
+.container-item button {
+  padding: 5px;
+  margin: auto;
+}
+
 .admin_activity {
   position: relative;
   margin: 0 auto;
