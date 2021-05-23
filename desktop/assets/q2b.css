@@ -1,0 +1,89 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.admin_group {
+  background-color: lightblue;
+}
+.container {
+  width: 768px;
+  float: left;
+}
+.container-item {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  border-bottom-width: 1px;
+  border-bottom-style: groove;
+  padding: 10px;
+}
+
+.container-item button {
+  padding: 5px;
+  margin: auto;
+}
+
+.admin_activity {
+  position: relative;
+  margin: 0 auto;
+  width: 230px;
+  float: right;
+}
+
+table {
+  border: solid;
+  width: 1010px;
+  text-align: center;
+}
+
+/* q2b */
+#content textarea {
+  width: 95vw;
+  height: 20vw;
+}
+
+#content label {
+  vertical-align: top;
+}
+
+#send {
+  width: 95vw;
+}
+
+#date,
+#email,
+#files,
+#recipient {
+  margin: 0 auto;
+  padding: 3vw;
+}
+@media screen and (min-width: 376px) {
+  .form_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #date,
+  #email,
+  #files,
+  #recipient {
+    padding: 1vw;
+  }
+
+  #content {
+    grid-area: 2 / 1 / 2 / 3;
+  }
+
+  #send {
+    grid-area: 4 / 1 / 4 / 3;
+  }
+}

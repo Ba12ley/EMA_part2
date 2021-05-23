@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/q2b.css">
+
+    <title>Add an Annoucement</title>
+</head>
+<body>
+    <h1>OU Walking Club</h1>
+    <h2>Administration Page</h2>
+    <h3 class="admin_group">Add a announcement</h3>
+
+    
+        <form class="form_grid" method="POST" action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+            <p id="date">
+                <label for="release_date"><b>Date of release: </b></label>
+                <input type="date" name="release_date" id="release_date"/>
+            </p>
+
+            <p id="email">
+                <label for="email_title"><b>Email title: </b></label>
+                <input type="text" name="email_title" id="email_title" size="30" maxlength="30" />
+            </p>
+
+            <p id="content">
+                <label for="announcement_content"><b>Content: </b></label>
+                <textarea name="announcement_content" id="announcement_content"></textarea>
+            </p>
+            
+            <p id="files">
+                <label for="attached_files"><b>Attached files: </b></label>
+                <input type="file" name="attached_files" id="attached_files"/>
+            </p>
+
+            <p id="recipient">
+                <label for="visitor_email"><b>Member group to send to: </b></label>
+                <input type="email" name="visitor_email" id="visitor_email"/>
+            </p>
+        
+            <input type="hidden" name="sessionID" id="sessionID" value="1234abcd-5678-9090-efef">
+
+            <input id="send" type="submit" name="submit" value="Send" />
+        </form>
+    
+    <form method="GET" action="index.html">
+        <button>Back</button>
+    </form>
+</body>
+</html>
