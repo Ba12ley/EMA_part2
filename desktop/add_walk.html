@@ -27,12 +27,14 @@
 
         <p><b>Notes: </b><textarea type="text" name="notes" rows="5" cols="50"></textarea></p>
 
-        <p><b>Status: </b> Approved <input type="radio" name="Approved" /> Proposed <input type="radio" name="proposed"> Rejected <input type="radio" name="rejected"></p>
+        <p><b>Status: </b> Active <input type="radio" name="active" /> Proposed <input type="radio" name="proposed">Rejected <input type="radio" name="rejected"></p>
         
         <input type="submit" name="submit" value="Submit" />
     </form>
 
-    <button><a href="index.html">Back</a></button>
+    <form method="GET" action="index.html">
+        <button>Back</button>
+    </form>
     
 </body>
 </html>

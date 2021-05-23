@@ -16,7 +16,7 @@
     <form action="">
         <p><b>Title: </b><input type="text" name="first_name" size="30" maxlength="30" /></p>
 
-        <p><b>Content: </b><textarea name="news_content" cols="30" rows="10" maxlength="2000"></textarea></p>
+        <p><b>Content: </b><textarea name="news_content" cols="30" rows="10"></textarea maxlength="2000"></p>
 
         <p><b>Images to upload</b><input type="file"></p>
 
@@ -29,6 +29,8 @@
         
         <input type="submit" name="submit" value="Submit" />
     </form>
-    <button><a href="index.html">Back</a></button>
+    <form method="GET" action="index.html">
+        <button>Back</button>
+    </form>
 </body>
 </html>
